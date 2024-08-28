@@ -1,0 +1,48 @@
+header{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    display:flex;
+    height: 80px;
+    width: 100%;
+}
+.main-title{
+    font-size: 1.5em;
+    margin-left: 10px;
+    background-color: white;
+    height: 80px;
+    width: 800px;
+    text-align: right;
+    color: black;
+    letter-spacing: 2px;
+}
+.drop-down-icon{
+    
+}
+.item-hide{
+    display: none;
+}
+.item-show{
+    transition: height 0.5s ease-in-out;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+        width: 100%; /* Make the title take the full width */
+        text-align: center; /* Center the text */
+        margin-left: 0; /* Remove margin */
+    }
+
+    header {
+        display: flex;
+        height: 80px; /* Adjust height to content */
+        position: sticky;
+    }
+}
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 1em; /* Further adjust font size for very small screens */
+    }
+}

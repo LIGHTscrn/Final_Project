@@ -1,11 +1,24 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{% block title %}Document{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div style="font-size: 2em;" class = drop-down-icon>&#127828;</div>
+            <ul class = "item-hide">
+                <li><a href="index.hteml">HOME</a></li>
+            </ul>
+        </nav>
+        <div class="main-title">PERSIAN CAFE</div>
+    </header>
+    {% block content %}
+    {% endblock %}
 </body>
 </html>
