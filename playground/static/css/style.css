@@ -6,6 +6,13 @@ header{
     height: 80px;
     width: 100%;
 }
+header ul {
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 10px;
+}
 .main-title{
     font-size: 1.5em;
     margin-left: 10px;
@@ -19,7 +26,7 @@ header{
 .drop-down-content{
     display: none;
 }
-.drop-down-content .show{
+.show{
     transition: height 0.5s ease-in-out;
     display: block;
 }
