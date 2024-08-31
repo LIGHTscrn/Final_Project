@@ -16,13 +16,10 @@ header{
     color: black;
     letter-spacing: 2px;
 }
-.drop-down-icon{
-    
-}
-.item-hide{
+.drop-down-content{
     display: none;
 }
-.item-show{
+.drop-down-content .show{
     transition: height 0.5s ease-in-out;
     display: block;
 }
