@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     icon.addEventListener('click', () => {
         dropDown.classList.toggle('show');
+        dropDown.classList.toggle('fade-in');
     });
 });
 
