@@ -29,20 +29,20 @@ header{
 
 @media (max-width: 768px) {
     .main-title {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
-        width: 100%; /* Make the title take the full width */
-        text-align: center; /* Center the text */
-        margin-left: 0; /* Remove margin */
+        font-size: 1.5em; 
+        width: 100%;
+        text-align: center;
+        margin-left: 0; 
     }
 
     header {
         display: flex;
-        height: 80px; /* Adjust height to content */
+        height: 80px;
         position: sticky;
     }
 }
 @media (max-width: 480px) {
     .main-title {
-        font-size: 1em; /* Further adjust font size for very small screens */
-    }
+        font-size: 1em; 
+}
 }
