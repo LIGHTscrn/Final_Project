@@ -1,3 +1,93 @@
-body{
-    background-color: aqua;
+header {
+    background: linear-gradient(to right, #f12711, #f5af19);
+    height: 30vh;
+    background-position: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav
+{
+    display :flex;
+}
+.menu{
+    width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: flex-end;
+    column-gap: 30px;
+    align-items: center;
+}
+.log{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.log li{
+    width: fit-content;
+    padding: 10px;
+}
+
+
+
+.Name {
+    font-size:2em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.element{
+    height: 75vh;
+    background: linear-gradient(to top, #f12711, #f5af19);
+}
+.element a{
+    text-decoration: none;
+    color: white;
+}
+
+#firstbox{
+    flex-shrink: 0;
+}
+.element li{
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    list-style: none;
+}
+
+.element ul{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid black;
+    padding: 0px;
+    justify-content:center;
+    /* gap: 20px; */
+    column-gap: 20px;
+    row-gap: 70px;
+    align-items: center;
+    align-content: center;
+}
+
+@media(max-width: 575px)
+{
+.element ul {
+    flex-wrap: wrap;
+}
 }
